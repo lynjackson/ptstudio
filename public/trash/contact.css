@@ -1,0 +1,43 @@
+@media screen and (min-width: 0){
+  #contact-div{
+    border: 1px solid;
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    background-color:rgba(0,0,0,.88);
+    margin-top: 152px;
+    padding: 35px 0;
+  }
+
+  #main_text{
+    color: white;
+    margin: 55px 0 0 0;
+    font-size: 2.06em;
+    font-family: Muli;
+    font-weight: 900;
+    text-align: center;
+  }
+  #sub_text{
+    color: white;
+    text-align: center;
+    font-family: muli;
+    width: 78.5%;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-top: 22px;
+  }
+  #contact_button{
+    border-radius: 5%;
+    width: 128px;
+    margin: 22px auto;
+    background-color: black;
+    padding: 13px 0;
+  }
+  #contact_button_text{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Muli;
+    font-weight: 100;
+  }
+}

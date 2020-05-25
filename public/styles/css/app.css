@@ -1,0 +1,49 @@
+@media screen and (min-width: 0px) {
+  body {
+    background-color: #DFDFDF;
+    margin: 0;
+  }
+
+  .layout {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 89.53px;
+  }
+
+  #page-layout {
+    width: 94.5%;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+@media screen and (min-width: 768px) {
+  #page-layout {
+    width: 90%;
+  }
+
+  .layout {
+    margin-top: 0;
+  }
+
+  #chromebar {
+    background-image: url("/assets/images/iPad_chromebar.png");
+    height: 106px;
+    width: 100%;
+    background-size: cover;
+    top: 0px;
+    /* position: fixed; */
+  }
+}
+@media screen and (min-width: 1024px) {
+  .layout {
+    width: 100vw;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */

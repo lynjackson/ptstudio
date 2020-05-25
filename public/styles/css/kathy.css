@@ -1,0 +1,65 @@
+@media screen and (min-width: 0px) {
+  #image_kathy {
+    background-image: url("/assets/images/kathy.jpeg");
+    background-size: cover;
+    height: 30.6vh;
+    width: 100vw;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #name_kathy {
+    font-family: acier-bat-solid;
+    font-size: 49.75px;
+    font-weight: 900;
+    text-align: center;
+    opacity: 0.46;
+    /* letter-spacing: -4.64px; */
+    margin: 10px auto;
+    /* margin-top:300px; */
+  }
+
+  #title_kathy {
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 600;
+    opacity: 0.91;
+    text-align: center;
+    margin: 10.68px auto;
+  }
+
+  #description_kathy {
+    font-family: Muli;
+    font-size: 16px;
+    margin: 25px auto;
+    line-height: 27.84px;
+    opacity: 0.72;
+  }
+
+  #portfolio-div_kathy {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .portfolio-image-div_kathy {
+    overflow: hidden;
+    width: 47%;
+    display: inline;
+    height: fit-content;
+  }
+
+  img {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #image_kathy {
+    margin-top: 67px;
+  }
+}
+
+/*# sourceMappingURL=kathy.css.map */

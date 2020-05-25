@@ -1,0 +1,132 @@
+@media screen and (min-width: 0px){
+
+  #cover-div{
+    width:100%;
+    height:80vh;
+    overflow:hidden;
+    border:5px solid black;
+    box-sizing: border-box;
+    margin-top:11.2vh;
+    background-image: url("/cover2.jpeg");
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+
+  }
+  #cover{
+    position:relative;
+    left:-100%;
+
+  }
+  #cover-text{
+    font-family: Muli;
+    font-family: acier-bat-gris, sans-serif;
+    font-size:3.5em;
+    color:white;
+    background-color:rgba(0,0,0,.19);
+    text-align:center;
+    width:87%;
+  }
+
+  .home-category-div{
+
+  }
+
+  #services-div{
+
+  }
+
+  @font-face {
+    font-family: 'permanent-marker';
+    src: url("/fonts/permanent-marker/PermanentMarker.ttf") format("truetype");
+  }
+  .home-category-title{
+    font-family: 'permanent-marker', sans-serif;
+    font-weight: 700;
+    font-size: 2.31em;
+    font-family: acier-bat-solid;
+    text-align:center;
+
+    letter-spacing: 17px;
+  }
+
+  #category_div{
+    margin: 0 0 3vh 0;
+  }
+
+    #category_img{
+      width: 100%;
+      height: 20vh;
+      margin: 0 0 4vh 0;
+      border: 4px solid black;
+      box-sizing: border-box;
+    }
+    #category_words_div{
+      display:flex;
+      flex-wrap:wrap;
+    }
+    .category_word{
+      width: 50%;
+      text-align: center;
+      font-family:Muli;
+      font-size: 1.12em;
+      font-weight:300;
+      margin: 0px 0 2vh 0;
+    }
+
+    #category_category{
+      font-weight:bold;
+    }
+}
+
+@media screen and (min-width: 1024px){
+  #cover-div{
+    margin-top:12.1vh;
+      background-size: cover;
+  }
+
+  .service_space_div{
+    display:flex;
+    justify-content: space-between;
+  }
+  #category_div{
+    width:32.2%;
+  }
+  #cover-text{
+    width:846px;
+  }
+  #category_words_div{
+    flex-direction:column;
+    align-items: center;
+  }
+
+  .category_word{
+    width:100%;
+  }
+  #category_category{
+    font-size: 1.5em;
+  }
+  #category_img{
+    height:22vh;
+  }
+
+  .home-category-title{
+    margin: 89px 0 20px 0;
+    font-size: 3.5em;
+    text-align:left;
+  }
+
+}
+
+@media screen and (min-width: 1366px){
+  #cover-div{
+    height:651px;
+  }
+}
+
+
+@media screen and (min-width: 1680px){
+
+}

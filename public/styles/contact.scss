@@ -1,0 +1,106 @@
+@media screen and (min-width: 0px){
+    #section_contact{
+        width:100vw;
+        height:auto;
+        /* position:absolute; */
+        background: #141414E0 0% 0% no-repeat padding-box;
+        opacity: 1;
+        /* top: 1554px; */
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 12.6px;
+        box-sizing: border-box;
+        margin-top:104px;
+    }
+    #headline_contact{
+        text-align: left;
+        font-size:43px;
+        font-family: acier-bat-solid, sans-serif;
+        letter-spacing: 5.5px;
+        color: #FFFFFF;
+        opacity: 1;
+        margin:0;
+        width:94.5%
+    }
+    #contact-info_contact{
+        display:flex;
+        justify-content: space-between;
+        font-family: poppins;
+        font-weight: 600;
+        color:white;
+        width:94.5%;
+        margin: 20px 0px;
+        p{
+            margin:0;
+        }
+    }
+    #phoneAndEmail_contact{
+        width:50%;
+    }
+    #address_contact{
+        width:50%;
+        color:grey;
+    }
+    
+    
+}
+@media screen and (min-width: 768px){
+    
+    #section_contact{
+        /* padding: 61px 0 61px 0; */
+        // height:161px;
+        padding:41px 5% 0px 5%;
+    }
+    #headline_contact{
+        text-align:left;
+        
+    }
+    #phoneAndEmail_contact{
+        display:flex;
+        justify-content: space-between;
+        width:40%;
+    }
+}
+@media screen and (min-width: 1024px){
+    #section_contact{
+        padding:41px 5% 0px 5%;
+    }
+    #phoneAndEmail_contact{
+        width:40%;
+    }
+    #contact-info_contact{
+        width: 713px;
+        max-width: 713px;
+    }
+}
+@media screen and (min-width: 1280px){
+    
+    #phoneAndEmail_contact{
+        width:41%;
+    }
+}
+
+@media screen and (min-width: 1536px){
+    #section_contact{
+        padding:41px 8% 0px 8%;
+        
+    }
+    #phoneAndEmail_contact{
+        // width:35%; 
+    }
+
+    
+   
+}
+@media screen and (min-width: 2560px){
+    #section_contact{
+        padding:0px 8%;
+        padding:25px 25%;
+    }
+    #phoneAndEmail_contact{
+        // width:35%;
+    }
+    
+}
+

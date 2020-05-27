@@ -16,13 +16,14 @@ class Home extends React.Component{
       test: 1,
     }
   }
+  
   render(){  
     return (
         <div className='layout'>
           {/* <div style={{display:(this.state.load ==='no')?'flex':'none',width:'100vw', height:'100vh', position:'fixed', backgroundColor:'white'}}></div> */}
           <Head> <link rel="stylesheet" href="https://use.typekit.net/ice5yhp.css"/> <title>Perfect Touch Studio</title> <link rel="icon" href="../favicon.ico"></link> <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script></Head>
           {/* <div id='chromebar'></div> */}
-          <Header />
+          <Header/>
     
           <div id='above-fold_home'>
             <div id='image_home' onLoad={()=>{this.setState({load:'yea'})}}></div>
@@ -39,10 +40,9 @@ class Home extends React.Component{
           <div id='page-layout'>
     
             <div id='tab-section_home'>
-              <Tab id={'spaces-tab'} preText={'rent our'} tabText={'spaces'} image={'/assets/images/spaces.jpeg'}/>
-              <Tab id={'services-tab'} preText={'view our'} tabText={'services'} image={'/assets/images/music-video.jpeg'}/>
-              
-              <Tab preText={'meet our'} id={'kathy-tab_home'} tabText={'creative director'} classes={'kathyTab_contact'} image={'/assets/images/KatFraming.jpg'} marginTop={{marginTop:100, backgroundColor:'rgba(0,0,0, .61)'}} backgroundColor={{backgroundColor:'rgba(0,0,0, .41)'}}/>
+              <Tab id={'spaces-tab'} preText={'rent our'} tabText={'spaces'} image={'/assets/images/spaces.jpeg'} link={'/spaces'}/>
+              <Tab id={'services-tab'} preText={'view our'} tabText={'services'} image={'/assets/images/music-video.jpeg'} link={'/services'}/>
+              <Tab preText={'meet our'} id={'kathy-tab_home'} tabText={'creative director'} classes={'kathyTab_contact'} image={'/assets/images/KatFraming.jpg'} marginTop={{marginTop:100, backgroundColor:'rgba(0,0,0, .61)'}} backgroundColor={{backgroundColor:'rgba(0,0,0, .41)'}} link={'/kathy'}/>
             </div>
     
           </div>

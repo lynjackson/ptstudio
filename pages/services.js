@@ -30,15 +30,15 @@ export default class Services extends React.Component{
                         <div id='arrow_spaces'></div>
                     </div>
                     
-                    <Module title={'Creative Workshop'} image1={'/assets/images/workshop2.jpeg'} image2={'/assets/images/workshop3.jpeg'} item1={'Tools & Supplies'} item2={'Wood working'} item3={'Large Surfaces'} item4={'UX Design'}/>
+                    <Module title={'Digital Imaging'} image1={'/assets/images/camera.jpg'} image2={'/assets/images/workshop3.jpeg'} item1={'Retouching'} item2={'Photoshop'} item3={'Enhancement'} item4={'UX Design'}/>
     
                     <hr className='separator_spaces'/>
     
-                    <Module title={'Photo Studio'} image={'/assets/images/kathy.jpeg'}/>
+                    <Module title={'Strategy & Design'} image1={'/assets/images/meeting_space.jpeg'} item1={'Art Direction'} item2={'Visual Design'} item3={'Web & UI Design'} item4={'UX Design'}/>
     
                     <hr className='separator_spaces'/>
     
-                    <Module title={'Photo Studio'} image={'/assets/images/kathy.jpeg'}/>
+                    <Module title={'Custom Framing'} image1={'/assets/images/workshop4.jpeg'} item1={'Matting'} item2={'Framing'} item3={'Large Surfaces'} item4={'Customization'}/>
                     
                     </div>
                     <Contact headline={'Interested in a space?'} subtext={'Whether you have a question about our space and it’s availability, or about our services, our team is read to answer all your questions.'}/>
@@ -58,13 +58,13 @@ export default class Services extends React.Component{
                     <div id='page-layout'>
                     
                     
-                    <ModuleDesktop title={'Digital Imaging'} image1={'/assets/images/photo1.jpeg'} image2={'/assets/images/photo2.jpeg'} item1={'Retouching'} item2={'Photoshop'} item3={'Enhancement'} marginTop={0} />
+                    <ModuleDesktop title={'Digital Imaging'} image1={'/assets/images/camera.jpg'} image2={'/assets/images/photo2.jpeg'} item1={'Retouching'} item2={'Photoshop'} item3={'Enhancement'} marginTop={0} />
 
     
-                    <ModuleReverse title={'Strategy & Design'} image1={'/assets/images/event2.jpeg'} image2={'/assets/images/event1.jpeg'} item1={'Art Direction'} item2={'Visual Design'} item3={'Web & UI Design'}/>
+                    <ModuleReverse title={'Strategy & Design'} image1={'/assets/images/meeting_space.jpeg'} image2={'/assets/images/event1.jpeg'} item1={'Art Direction'} item2={'Visual Design'} item3={'Web & UI Design'}/>
 
     
-                    <ModuleDesktop title={'Custom Framing'} image1={'/assets/images/photo1.jpeg'} image2={'/assets/images/photo2.jpeg'} item1={'Matting'} item2={'Framing'} item3={'Customization'}/>
+                    <ModuleDesktop title={'Custom Framing'} image1={'/assets/images/workshop4.jpeg'} image2={'/assets/images/photo2.jpeg'} item1={'Matting'} item2={'Framing'} item3={'Customization'}/>
                     
                     </div>
                     <Contact headline={'Interested in a space?'} subtext={'Whether you have a question about our space and it’s availability, or about our services, our team is read to answer all your questions.'}/>

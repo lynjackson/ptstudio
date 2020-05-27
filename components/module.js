@@ -17,18 +17,18 @@ export class Module extends React.Component{
                     
                     <div className='image_module' style={{backgroundImage:`url(${this.state.images[this.state.counter]})`}}>
                         <div className='imageChanger_module'>
-                                <img className='tabArrow_module' src='/assets/icons/arrow-left.svg' onClick={()=>{if (this.state.counter > 0){this.setState({counter: this.state.counter - 1})}}}/>
-                                <img className='tabArrow_module' src='/assets/icons/arrow-right.svg' onClick={()=>{if (this.state.counter < 1){this.setState({counter: this.state.counter + 1})}}}/>
+                                {/* <img className='tabArrow_module' src='/assets/icons/arrow-left.svg' onClick={()=>{if (this.state.counter > 0){this.setState({counter: this.state.counter - 1})}}}/>
+                                <img className='tabArrow_module' src='/assets/icons/arrow-right.svg' onClick={()=>{if (this.state.counter < 1){this.setState({counter: this.state.counter + 1})}}}/> */}
                         </div>
                     </div>
                     
                     
                     {/* <img className='image_module' src='/assets/images/workshop2.jpeg'/> */}
-                    <div className='dots_module'>
+                    {/* <div className='dots_module'>
                         <div className='dot_module' style={{backgroundColor:(this.state.counter===0)?'rgba(0,0,0,1)':'rgba(0,0,0,0)'}}></div>
                         <div className='dot_module' style={{backgroundColor:(this.state.counter===1)?'rgba(0,0,0,1)':'rgba(0,0,0,0)'}}></div>
                         <div className='dot_module' style={{backgroundColor:(this.state.counter===2)?'rgba(0,0,0,1)':'rgba(0,0,0,0)'}}></div>
-                    </div>
+                    </div> */}
                     
                     
                     <div className='text-div_module'>
@@ -61,15 +61,15 @@ export class ModuleDesktop extends React.Component{
                 
                 <div className='image_module' style={{backgroundImage:`url(${this.state.images[this.state.counter]})`}}>
                         <div className='imageChanger_module'>
-                                <img className='tabArrow_module' src='/assets/icons/arrow-left.svg' onClick={()=>{if (this.state.counter > 0){this.setState({counter: this.state.counter - 1})}}}/>
-                                <img className='tabArrow_module' src='/assets/icons/arrow-right.svg' onClick={()=>{if (this.state.counter < 1){this.setState({counter: this.state.counter + 1})}}}/>
+                                {/* <img className='tabArrow_module' src='/assets/icons/arrow-left.svg' onClick={()=>{if (this.state.counter > 0){this.setState({counter: this.state.counter - 1})}}}/>
+                                <img className='tabArrow_module' src='/assets/icons/arrow-right.svg' onClick={()=>{if (this.state.counter < 1){this.setState({counter: this.state.counter + 1})}}}/> */}
                         </div>
 
-                        <div className='dots_module'>
+                        {/* <div className='dots_module'>
                             <div className='dot_module' style={{backgroundColor:(this.state.counter===0)?'rgba(0,0,0,1)':'rgba(0,0,0,0)'}}></div>
                             <div className='dot_module' style={{backgroundColor:(this.state.counter===1)?'rgba(0,0,0,1)':'rgba(0,0,0,0)'}}></div>
                             <div className='dot_module' style={{backgroundColor:(this.state.counter===2)?'rgba(0,0,0,1)':'rgba(0,0,0,0)'}}></div>
-                        </div>
+                        </div> */}
                 </div>
                     
 
@@ -120,15 +120,15 @@ export class ModuleReverse extends React.Component{
                 
                 <div className='image_module' style={{backgroundImage:`url(${this.state.images[this.state.counter]})`}}>
                         <div className='imageChanger_module'>
-                                <img className='tabArrow_module' src='/assets/icons/arrow-left.svg' onClick={()=>{if (this.state.counter > 0){this.setState({counter: this.state.counter - 1})}}}/>
-                                <img className='tabArrow_module' src='/assets/icons/arrow-right.svg' onClick={()=>{if (this.state.counter < 1){this.setState({counter: this.state.counter + 1})}}}/>
+                                {/* <img className='tabArrow_module' src='/assets/icons/arrow-left.svg' onClick={()=>{if (this.state.counter > 0){this.setState({counter: this.state.counter - 1})}}}/>
+                                <img className='tabArrow_module' src='/assets/icons/arrow-right.svg' onClick={()=>{if (this.state.counter < 1){this.setState({counter: this.state.counter + 1})}}}/> */}
                         </div>
                         
-                        <div className='dots_module'>
+                        {/* <div className='dots_module'>
                             <div className='dot_module' style={{backgroundColor:(this.state.counter===0)?'rgba(0,0,0,1)':'rgba(0,0,0,0)'}}></div>
                             <div className='dot_module' style={{backgroundColor:(this.state.counter===1)?'rgba(0,0,0,1)':'rgba(0,0,0,0)'}}></div>
                             <div className='dot_module' style={{backgroundColor:(this.state.counter===2)?'rgba(0,0,0,1)':'rgba(0,0,0,0)'}}></div>
-                        </div>
+                        </div> */}
                 </div>
                 
                     

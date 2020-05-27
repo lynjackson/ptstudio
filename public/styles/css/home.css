@@ -8,15 +8,16 @@
 
   #image_home {
     background-image: url(/assets/images/cover2.jpeg);
-    background-size: 131vw;
-    height: 272.92px;
+    height: 468.92px;
     /* height: calc(100vh - 89px - 115px); */
     width: 100vw;
     left: 0px;
-    background-position-x: center;
-    /* position: absolute; */
+    position: absolute;
     z-index: -1;
-    background-position: 0px 0px;
+    background-position: center;
+    background-position-y: -1px;
+    top: 0px;
+    background-size: 648px 432px;
   }
 
   .cover-text_home {
@@ -28,12 +29,11 @@
 
   #cover-text-background_home {
     width: 100%;
-    /* background: transparent linear-gradient(180deg, #DFDFDFC9 0%, #DFDFDF 100%) 0% 0% no-repeat padding-box; */
-    background-color: #DFDFDF;
-    height: auto;
+    background: linear-gradient(180deg, rgba(222, 222, 222, 0.81) 0%, #dedede 71%, #dedede 100%);
     position: relative;
     padding: 35px 5.4%;
     box-sizing: border-box;
+    margin-top: 272.8px;
   }
 
   #cover-text-A_home {
@@ -56,7 +56,7 @@
     margin: 30px 0;
     opacity: 0;
     transition: opacity 0.5s;
-    box-shadow: 3px 5px 6px #00000078;
+    box-shadow: 3px 5px 26px #00000078;
   }
 
   /* #spaces-tab{
@@ -128,8 +128,12 @@
   }
 
   .tab_home {
-    width: 47%;
+    width: 100%;
     height: 43vh;
+  }
+
+  .tab_link {
+    width: 47%;
   }
 
   #kathy-tab_home {
@@ -137,14 +141,20 @@
   }
 
   .kathyTab_contact {
-    padding: 0px 0px 80px 490px;
+    padding: 0px;
+    width: 100%;
   }
 
   #image_home {
     z-index: -1;
-    background-position: 1px -185px;
     width: 100vw;
-    background-position: -199px -398px;
+    background-position: center;
+    background-position-y: -259px;
+    background-size: cover;
+  }
+
+  #cover-text-background_home {
+    background: linear-gradient(180deg, rgba(222, 222, 222, 0.81) 0%, #dedede 71%, #dedede 100%);
   }
 
   #tab-section_home {

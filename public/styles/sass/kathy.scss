@@ -1,0 +1,126 @@
+@media screen and (min-width: 0px){
+    
+    #profile{
+        width:94.5%;
+        margin: 0 auto 41px auto;
+        max-width:1280px;
+        
+        #imageOfKathy{
+            background-image: url('/assets/images/kathy.jpeg');
+            background-size:cover;
+            height:233px;
+            width: 100vw;
+            left: -3.25%;
+            position:relative;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #about-kathy-text_div{
+            margin:12px auto;
+            
+            #name{
+                font-family: Muli;
+                font-size:54px;
+                font-weight: 900;
+                text-align:center;
+                // opacity: .46;
+                letter-spacing: -4.64px;
+                margin:0;
+                // margin: 10px auto;
+                /* margin-top:300px; */
+            }
+            #title{
+                font-family: Poppins;
+                font-size: 19px;
+                font-weight:600;
+                opacity:.91;
+                text-align:center;
+                margin: 14px auto;
+            }
+            #description{
+                font-family:Muli;
+                font-size:16px;
+                margin: 0 auto;
+                line-height:27.84px;
+                opacity:.72;
+                max-width:546px;
+            }
+        }
+    }
+    
+    
+    
+    
+
+    #portfolio{
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 94.5%;
+        margin:0 auto;
+        max-width:1280px;
+        
+        .illustration{
+            overflow:hidden;
+            width:48.5%;
+            height:200px;
+            margin-bottom:9px;
+            background-position:center;
+            background-size: cover;
+            // display:flex;
+
+    }
+    
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    #profile{
+        display:flex;
+        flex-direction:row;
+        // justify-content:space-between;
+        margin-top:116.9px;
+        width:91.7%;
+        justify-content: center;
+
+        #about-kathy-text_div{
+            // width:53.9%;
+            margin:0 0 0 4.8%;;
+            display:flex;
+            flex-direction:column;
+            align-items:flex-start;
+
+            #title{
+                margin:11px 0;
+            }
+        }
+        #imageOfKathy{
+            // margin-top: 67px;
+            border-radius:50%;
+            width:289px;
+            min-width:289px;
+            height:289px;
+            background-size: 430px;
+            background-position: -36px 0px;
+            left:0;
+            box-shadow: 10px 9px #0000000a;
+
+        }
+
+
+    }
+
+    #portfolio{
+        width:91.7%;
+
+        .illustration{
+            width:31.5%;
+            margin-bottom:3%;
+        }
+    }
+    
+    
+}

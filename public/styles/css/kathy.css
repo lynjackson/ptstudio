@@ -1,64 +1,101 @@
 @media screen and (min-width: 0px) {
-  #image_kathy {
+  #profile {
+    width: 94.5%;
+    margin: 0 auto 41px auto;
+    max-width: 1280px;
+  }
+  #profile #imageOfKathy {
     background-image: url("/assets/images/kathy.jpeg");
     background-size: cover;
-    height: 30.6vh;
+    height: 233px;
     width: 100vw;
-    left: 0px;
+    left: -3.25%;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
-  #name_kathy {
-    font-family: acier-bat-solid;
-    font-size: 49.75px;
+  #profile #about-kathy-text_div {
+    margin: 12px auto;
+  }
+  #profile #about-kathy-text_div #name {
+    font-family: Muli;
+    font-size: 54px;
     font-weight: 900;
     text-align: center;
-    opacity: 0.46;
-    /* letter-spacing: -4.64px; */
-    margin: 10px auto;
+    letter-spacing: -4.64px;
+    margin: 0;
     /* margin-top:300px; */
   }
-
-  #title_kathy {
+  #profile #about-kathy-text_div #title {
     font-family: Poppins;
     font-size: 19px;
     font-weight: 600;
     opacity: 0.91;
     text-align: center;
-    margin: 10.68px auto;
+    margin: 14px auto;
   }
-
-  #description_kathy {
+  #profile #about-kathy-text_div #description {
     font-family: Muli;
     font-size: 16px;
-    margin: 25px auto;
+    margin: 0 auto;
     line-height: 27.84px;
     opacity: 0.72;
+    max-width: 546px;
   }
 
-  #portfolio-div_kathy {
+  #portfolio {
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 94.5%;
+    margin: 0 auto;
+    max-width: 1280px;
   }
-
-  .portfolio-image-div_kathy {
+  #portfolio .illustration {
     overflow: hidden;
-    width: 47%;
-    display: inline;
-    height: fit-content;
-  }
-
-  img {
-    max-width: 100%;
-    width: 100%;
+    width: 48.5%;
+    height: 200px;
+    margin-bottom: 9px;
+    background-position: center;
+    background-size: cover;
   }
 }
 @media screen and (min-width: 768px) {
-  #image_kathy {
-    margin-top: 67px;
+  #profile {
+    display: flex;
+    flex-direction: row;
+    margin-top: 116.9px;
+    width: 91.7%;
+    justify-content: center;
+  }
+  #profile #about-kathy-text_div {
+    margin: 0 0 0 4.8%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #profile #about-kathy-text_div #title {
+    margin: 11px 0;
+  }
+  #profile #imageOfKathy {
+    border-radius: 50%;
+    width: 289px;
+    min-width: 289px;
+    height: 289px;
+    background-size: 430px;
+    background-position: -36px 0px;
+    left: 0;
+    box-shadow: 10px 9px #0000000a;
+  }
+
+  #portfolio {
+    width: 91.7%;
+  }
+  #portfolio .illustration {
+    width: 31.5%;
+    margin-bottom: 3%;
   }
 }
 

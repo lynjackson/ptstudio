@@ -40,8 +40,8 @@ class About extends React.Component {
           
           <div id='portfolio'>
             <div className='illustration' style={{backgroundImage: 'url(/assets/images/port4.jpeg)'}}></div>
-            <div className='illustration' style={{backgroundImage: 'url(/assets/images/port6.jpg)'}}></div>
-            <div className='illustration' style={{backgroundImage: 'url(/assets/images/port5.jpg)'}}></div>
+            <div className='illustration' style={{backgroundImage: 'url(/assets/images/photo1.jpeg)'}}></div>
+            <div className='illustration' style={{backgroundImage: 'url(/assets/images/port5.jpeg)'}}></div>
             <div className='illustration' style={{backgroundImage: 'url(/assets/images/port1.jpeg)'}}></div>
             <div className='illustration' style={{backgroundImage: 'url(/assets/images/port2.jpeg)'}}></div>
             <div className='illustration' style={{backgroundImage: 'url(/assets/images/port3.jpeg)'}}></div>

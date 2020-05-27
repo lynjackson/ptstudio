@@ -58,7 +58,7 @@ export default class Services extends React.Component{
                     <div id='page-layout'>
                     
                     
-                    <ModuleDesktop title={'Digital Imaging'} image1={'/assets/images/camera.jpg'} image2={'/assets/images/photo2.jpeg'} item1={'Retouching'} item2={'Photoshop'} item3={'Enhancement'} marginTop={0} />
+                    <ModuleDesktop title={'Digital Imaging'} image1={'/assets/images/photo2.jpeg'} image2={'/assets/images/photo2.jpeg'} item1={'Retouching'} item2={'Photoshop'} item3={'Enhancement'} marginTop={0} />
 
     
                     <ModuleReverse title={'Strategy & Design'} image1={'/assets/images/meeting_space.jpeg'} image2={'/assets/images/event1.jpeg'} item1={'Art Direction'} item2={'Visual Design'} item3={'Web & UI Design'}/>

@@ -86,7 +86,7 @@ export class ModuleDesktop extends React.Component{
                     
                     
                     <div className='text-div_module'>
-                        <p className='description_module'>Whether building it up or breaking it down, our workshop has the tools and equipment you need to get it done. With concrete floors and several high/large surfaces, you’ll always have enough space and will never have to worry about making a mess.</p>
+                        <p className='description_module'>{this.props.description}</p>
                         
                         <div className='items_module'>
                             <p className='item_module' style={{marginTop:this.props.marginTop}}>{this.props.item1}</p>
@@ -146,7 +146,7 @@ export class ModuleReverse extends React.Component{
                     
                     
                     <div className='text-div_module text-div-reverse_module'>
-                        <p className='description_module'>Whether building it up or breaking it down, our workshop has the tools and equipment you need to get it done. With concrete floors and several high/large surfaces, you’ll always have enough space and will never have to worry about making a mess.</p>
+                        <p className='description_module'>{this.props.description}</p>
                         
                         <div className='items_module items-reverse_module'>
                             <p className='item_module' style={{marginTop:this.props.marginTop}}>{this.props.item1}</p>

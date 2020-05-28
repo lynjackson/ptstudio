@@ -1,4 +1,19 @@
+
+@font-face {
+    font-family: 'Muli-800';
+    letter-spacing:-14px;
+    font-weight:700;
+    src: url("../assets//fonts/muli-v20-latin/muli-800/muli-v20-latin-800.svg") format("svg");
+    /* url('../../assets/fonts/poppins/bold/poppins-v9-latin-700.woff') format('woff'),
+    url('../../assets/fonts/poppins/bold/poppins-v9-latin-700.woff2') format('woff2'),
+    url("../../assets/fonts/poppins/bold/poppins-v9-latin-700.otf") format("opentype"),
+    url("../../assets/fonts/poppins/bold/poppins-v9-latin-700.ttf") format("truetype"); */
+  }
+
 @media screen and (min-width: 0px){
+
+    
+
     #image_spaces{
         background-image: url('/assets/images/spaces-top.jpg');
         background-size:cover;
@@ -50,7 +65,7 @@
           font-family:Muli;
       }
       .title_module{
-          font-family: Muli;
+          font-family: 'Muli-800';
           font-weight: 800;
           font-size: 26px;
           text-align: center;

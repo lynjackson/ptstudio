@@ -30,15 +30,15 @@ export default class Services extends React.Component{
                         <div id='arrow_spaces'></div>
                     </div>
                     
-                    <Module title={'Digital Imaging'} image1={'/assets/images/camera.jpg'} image2={'/assets/images/workshop3.jpeg'} item1={'Retouching'} item2={'Photoshop'} item3={'Enhancement'} item4={'UX Design'}/>
+                    <Module title={'Digital Imaging'} image1={'/assets/images/camera.jpg'} image2={'/assets/images/workshop3.jpeg'} item1={'Retouching'} item2={'Photoshop'} item3={'Enhancement'} item4={'UX Design'} description={'Photo retouching, editing and finishing is a speciality of ours. We can edit photos you’ve taken in our studio, or work on files that you provide us. You’d be surprised at the extent to which we can restore beloved old photos. Just give us a try.'}/>
     
                     <hr className='separator_spaces'/>
     
-                    <Module title={'Strategy & Design'} image1={'/assets/images/meeting_space.jpeg'} item1={'Art Direction'} item2={'Visual Design'} item3={'Web & UI Design'} item4={'UX Design'}/>
+                    <Module title={'Strategy & Design'} image1={'/assets/images/meeting_space.jpeg'} item1={'Art Direction'} item2={'Visual Design'} item3={'Web & UI Design'} item4={'UX Design'} description={'We can help you plan your next project. Our creatives have expertise in several areas of design and strategy, and are ready to help you make important decisions, or just brainstorm. We create documents like pitch decks, design briefs and wireframes to suit your needs.'}/>
     
                     <hr className='separator_spaces'/>
     
-                    <Module title={'Custom Framing'} image1={'/assets/images/workshop4.jpeg'} item1={'Matting'} item2={'Framing'} item3={'Large Surfaces'} item4={'Customization'}/>
+                    <Module title={'Custom Framing'} image1={'/assets/images/workshop4.jpeg'} item1={'Matting'} item2={'Framing'} item3={'Large Surfaces'} item4={'Customization'} description={'Perfect Touch started out as a custom framing shop, and over the years we’ve become expert at what we do. Elevate your walls with pieces framed and matted just to your specification. We can handle all kinds of shapes, sizes and depths.'}/>
                     
                     </div>
                     <Contact headline={'Interested in a space?'} subtext={'Whether you have a question about our space and it’s availability, or about our services, our team is read to answer all your questions.'}/>
@@ -58,13 +58,13 @@ export default class Services extends React.Component{
                     <div id='page-layout'>
                     
                     
-                    <ModuleDesktop title={'Digital Imaging'} image1={'/assets/images/photo2.jpeg'} image2={'/assets/images/photo2.jpeg'} item1={'Retouching'} item2={'Photoshop'} item3={'Enhancement'} marginTop={0} />
+                    <ModuleDesktop title={'Digital Imaging'} image1={'/assets/images/photo2.jpeg'} image2={'/assets/images/photo2.jpeg'} item1={'Retouching'} item2={'Photoshop'} item3={'Enhancement'} marginTop={0} description={'Photo retouching, editing and finishing is a speciality of ours. We can edit photos you’ve taken in our studio, or work on files that you provide us. You’d be surprised at the extent to which we can restore beloved old photos. Just give us a try.'}/>
 
     
-                    <ModuleReverse title={'Strategy & Design'} image1={'/assets/images/meeting_space.jpeg'} image2={'/assets/images/event1.jpeg'} item1={'Art Direction'} item2={'Visual Design'} item3={'Web & UI Design'}/>
+                    <ModuleReverse title={'Strategy & Design'} image1={'/assets/images/meeting_space.jpeg'} image2={'/assets/images/event1.jpeg'} item1={'Art Direction'} item2={'Visual Design'} item3={'Web & UI Design'} description={'We can help you plan your next project. Our creatives have expertise in several areas of design and strategy, and are ready to help you make important decisions, or just brainstorm. We create documents like pitch decks, design briefs and wireframes to suit your needs.'}/>
 
     
-                    <ModuleDesktop title={'Custom Framing'} image1={'/assets/images/workshop4.jpeg'} image2={'/assets/images/photo2.jpeg'} item1={'Matting'} item2={'Framing'} item3={'Customization'}/>
+                    <ModuleDesktop title={'Custom Framing'} image1={'/assets/images/workshop4.jpeg'} image2={'/assets/images/photo2.jpeg'} item1={'Matting'} item2={'Framing'} item3={'Customization'} description={'Perfect Touch started out as a custom framing shop, and over the years we’ve become expert at what we do. Elevate your walls with pieces framed and matted just to your specification. We can handle all kinds of shapes, sizes and depths.'}/>
                     
                     </div>
                     <Contact headline={'Interested in a space?'} subtext={'Whether you have a question about our space and it’s availability, or about our services, our team is read to answer all your questions.'}/>

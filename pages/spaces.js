@@ -33,15 +33,15 @@ export default class Spaces extends React.Component{
                         <div id='arrow_spaces'></div>
                     </div>
                     
-                    <Module title={'Creative Workshop'} image1={'/assets/images/workshop2.jpeg'} image2={'/assets/images/workshop3.jpeg'} item1={'Tools & Supplies'} item2={'Wood working'} item3={'Large Surfaces'} marginTop={0} />
+                    <Module title={'Creative Workshop'} image1={'/assets/images/workshop2.jpeg'} image2={'/assets/images/workshop3.jpeg'} item1={'Tools & Supplies'} item2={'Wood working'} item3={'Large Surfaces'} marginTop={0} description={'Whether building it up or breaking it down, our workshop has the tools and equipment you need to get it done. With concrete floors and several high/large surfaces, you’ll always have enough space and will never have to worry about making a mess.'}/>
     
                     <hr className='separator_spaces'/>
     
-                    <Module title={'Event Space'} image1={'/assets/images/event2.jpeg'} image2={'/assets/images/event1.jpeg'} item1={'Tools & Supplies'} item2={'Wood working'} item3={'Large Surfaces'}/>
+                    <Module title={'Event Space'} image1={'/assets/images/event2.jpeg'} image2={'/assets/images/event1.jpeg'} item1={'Tools & Supplies'} item2={'Wood working'} item3={'Large Surfaces'} description={'Need a place to hold your next meetup? Our space can host up to 50 people. We have a great setup for presentations and lectures, including tables, chairs and creative lighting. Our spaces can also be split into two parts if that suits your needs. '}/>
     
                     <hr className='separator_spaces'/>
     
-                    <Module title={'Photo Studio'} image1={'/assets/images/photo1.jpeg'} image2={'/assets/images/photo2.jpeg'} item1={'Tools & Supplies'} item2={'Wood working'} item3={'Large Surfaces'}/>
+                    <Module title={'Photo Studio'} image1={'/assets/images/photo1.jpeg'} image2={'/assets/images/photo2.jpeg'} item1={'Tools & Supplies'} item2={'Our state of the art photo studio has everything you need to capture the moment perfectly. We have cameras, lighting and seating equipment for your help. Take your own photos or use our on staff photographer for your next project.'}/>
                     
                     </div>
                     <Contact headline={'Interested in a space?'} subtext={'Whether you have a question about our space and it’s availability, or about our services, our team is read to answer all your questions.'}/>
@@ -63,13 +63,13 @@ export default class Spaces extends React.Component{
                     
                     
                     
-                    <ModuleDesktop title={'Photo Studio'} image1={'/assets/images/photo1.jpeg'} image2={'/assets/images/photo2.jpeg'} item1={'DSLR Cameras'} item2={'Lighting'} item3={'Shadowing'} marginTop={0} />
+                    <ModuleDesktop title={'Photo Studio'} image1={'/assets/images/photo1.jpeg'} image2={'/assets/images/photo2.jpeg'} item1={'DSLR Cameras'} item2={'Lighting'} item3={'Shadowing'} marginTop={0} description={'Our state of the art photo studio has everything you need to capture the moment perfectly. We have cameras, lighting and seating equipment for your help. Take your own photos or use our on staff photographer for your next project.'}/>
 
     
-                    <ModuleReverse title={'Event Space'} image1={'/assets/images/event2.jpeg'} image2={'/assets/images/event1.jpeg'} item1={'Tools'} item2={'Art Supplies'} item3={'Large Surfaces'}/>
+                    <ModuleReverse title={'Event Space'} image1={'/assets/images/event2.jpeg'} image2={'/assets/images/event1.jpeg'} item1={'Tools'} item2={'Art Supplies'} item3={'Large Surfaces'} description={'Need a place to hold your next meetup? Our space can host up to 50 people. We have a great setup for presentations and lectures, including tables, chairs and creative lighting. Our spaces can also be split into two parts if that suits your needs. '}/>
 
     
-                    <ModuleDesktop title={'Creative Workshop'} image1={'/assets/images/photo1.jpeg'} image2={'/assets/images/photo2.jpeg'} item1={'Tools & Supplies'} item2={'Wood working'} item3={'Large Surfaces'}/>
+                    <ModuleDesktop title={'Creative Workshop'} image1={'/assets/images/photo1.jpeg'} image2={'/assets/images/photo2.jpeg'} item1={'Tools & Supplies'} item2={'Wood working'} item3={'Large Surfaces'} description={'Whether building it up or breaking it down, our workshop has the tools and equipment you need to get it done. With concrete floors and several high/large surfaces, you’ll always have enough space and will never have to worry about making a mess.'}/>
                     
                     </div>
                     <Contact headline={'Interested in a space?'} subtext={'Whether you have a question about our space and it’s availability, or about our services, our team is read to answer all your questions.'}/>

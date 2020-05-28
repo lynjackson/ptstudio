@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import {Header} from '../components/header';
 import {Module, ModuleDesktop, ModuleReverse} from '../components/module';
-import '../public/styles/spaces.css';
+import '../public/styles/css/spaces.css';
 import Contact from '../components/contact';
 
 

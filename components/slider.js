@@ -1,5 +1,5 @@
 import React from 'react';
-import '../public/styles/spaces.css';
+import '../public/styles/css/spaces.css';
 
 export class Slider extends React.Component{
     constructor(props){

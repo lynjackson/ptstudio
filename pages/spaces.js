@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import {Header} from '../components/header';
 import {Module, ModuleDesktop, ModuleReverse} from '../components/module';
-import '../public/styles/spaces.css';
+import '../public/styles/css/spaces.css';
 import Contact from '../components/contact';
 
 
@@ -41,7 +41,7 @@ export default class Spaces extends React.Component{
     
                     <hr className='separator_spaces'/>
     
-                    <Module title={'Photo Studio'} image1={'/assets/images/photo1.jpeg'} image2={'/assets/images/photo2.jpeg'} item1={'Tools & Supplies'} item2={'Our state of the art photo studio has everything you need to capture the moment perfectly. We have cameras, lighting and seating equipment for your help. Take your own photos or use our on staff photographer for your next project.'}/>
+                    <Module title={'Photo Studio'} image1={'/assets/images/photo1.jpeg'} image2={'/assets/images/photo2.jpeg'} item1={'Tools & Supplies'} description={'Our state of the art photo studio has everything you need to capture the moment perfectly. We have cameras, lighting and seating equipment for your help. Take your own photos or use our on staff photographer for your next project.'}/>
                     
                     </div>
                     <Contact headline={'Interested in a space?'} subtext={'Whether you have a question about our space and it’s availability, or about our services, our team is read to answer all your questions.'}/>

@@ -39,7 +39,7 @@ export class Module extends React.Component{
                         </div>
                         {/* <div className='vertical-line_module'></div> */}
                         
-                        <p className='description_module'>Whether building it up or breaking it down, our workshop has the tools and equipment you need to get it done. With concrete floors and several high/large surfaces, you’ll always have enough space and will never have to worry about making a mess.</p>
+                        <p className='description_module'>{this.props.description}</p>
                     </div>
                 </div>
         )

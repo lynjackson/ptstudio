@@ -19,6 +19,7 @@
     margin: 0;
     color: #333333;
     opacity: 1;
+    max-width: 1280px;
   }
 
   #aboveFold-bottomHalf_spaces {
@@ -54,7 +55,7 @@
   }
 
   .title_module {
-    font-family: Muli;
+    font-family: Muli, sans-serif;
     font-weight: 800;
     font-size: 26px;
     text-align: center;
@@ -125,7 +126,7 @@
     flex-direction: column;
     /* margin: 0 auto; */
     /* width: 100%; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
     border-right: 1px solid;
     text-align: left;
   }
@@ -134,7 +135,7 @@
     opacity: 0.63;
     font-weight: 900;
     margin: 0;
-    margin: 14px 0;
+    margin: 8px 0;
   }
 
   .description_module {
@@ -186,6 +187,11 @@
     margin: 28.74px auto;
   }
 }
+@media screen and (min-width: 840px) {
+  .image_module {
+    height: 332px;
+  }
+}
 @media screen and (min-width: 1024px) {
   #aboveFold-bottomHalf_spaces {
     height: 32vh;
@@ -201,6 +207,7 @@
   #image_spaces {
     justify-content: flex-start;
     margin-bottom: 100px;
+    background-position-y: -140px;
   }
 
   .module {
